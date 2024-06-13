@@ -1,8 +1,11 @@
 <template>
     <div class="h-full">
       <h1>Index page</h1>
-      <button class="bg-cyan-900">Test</button>
-      <div>Root: intro area, about me page</div>
+      <div>Short blurb about me from a high level</div>
+      <div>Paragraph about me</div>
+      <div>Skills/languages known</div>
+      <div>companies worked at</div>
+      <div>school</div>
     </div>
   </template>
   

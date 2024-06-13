@@ -1,3 +1,3 @@
 <template>
-    <div>My Header</div>
+    <div>My Header: Overview, projects</div>
 </template>
