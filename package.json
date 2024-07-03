@@ -10,6 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/image": "^1.7.0",
+    "@nuxt/ui": "^2.17.0",
     "nuxt": "^3.12.1",
     "vue": "^3.4.27",
     "vue-router": "^4.3.3"
@@ -18,5 +20,6 @@
     "@nuxtjs/color-mode": "^3.4.1",
     "@nuxtjs/tailwindcss": "^6.12.0",
     "nuxt-icon": "^0.6.10"
-  }
+  },
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
 }

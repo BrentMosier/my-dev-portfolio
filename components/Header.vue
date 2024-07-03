@@ -1,3 +1,5 @@
 <template>
-    <div>My Header: Overview, projects</div>
+    <header class="flex">
+        <div>My Header: Overview, projects</div>
+    </header>
 </template>

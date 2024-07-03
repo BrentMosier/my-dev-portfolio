@@ -1,11 +1,59 @@
 <template>
     <div class="h-full">
       <h1>Index page</h1>
-      <div>Short blurb about me from a high level</div>
-      <div>Paragraph about me</div>
-      <div>Skills/languages known</div>
-      <div>companies worked at</div>
-      <div>school</div>
+      <div>Profile picture</div>
+      <div>Senior Software Engineer and UI/UX Designer</div>
+      <div>Building simple to use interfaces for complex and efficient solutions</div>
+      <div>I've been a softwre engineer for nearly a decade with experience as a front end web dev, back end engineer, and AR/VR Designer.
+        I've worked in the health tech space, behavioral health space, and in graph databases. I love learning about a tech process inside 
+        and out to help me design the simplest user interfaces so clients can get the most out of a product.
+      </div>
+      <TechCard title="Languages Known">
+        <IconWithTooltip iconName="vscode-icons:file-type-js-official" tooltipText="Javascript"/>
+        <IconWithTooltip iconName="vscode-icons:file-type-typescript-official" tooltipText="Typescript"/>
+        <IconWithTooltip iconName="vscode-icons:file-type-html" tooltipText="HTML"/>
+        <IconWithTooltip iconName="vscode-icons:file-type-css" tooltipText="CSS"/>
+        <IconWithTooltip iconName="vscode-icons:file-type-python" tooltipText="Python"/>
+        <IconWithTooltip iconName="vscode-icons:file-type-csharp" tooltipText="C Sharp"/>
+      </TechCard>
+      <TechCard title="Front End">
+        <IconWithTooltip iconName="vscode-icons:file-type-vue" tooltipText="Vue"/>
+        <IconWithTooltip iconName="vscode-icons:file-type-reactjs" tooltipText="React"/>
+        <IconWithTooltip iconName="vscode-icons:file-type-nuxt" tooltipText="Nuxt"/>
+        <IconWithTooltip iconName="vscode-icons:file-type-next" tooltipText="Next"/>
+        <IconWithTooltip iconName="vscode-icons:file-type-tailwind" tooltipText="Tailwind"/>
+        <IconWithTooltip iconName="vscode-icons:file-type-graphql" tooltipText="GraphQL"/>
+        <IconWithTooltip iconName="vscode-icons:file-type-angular" tooltipText="Angular"/>
+      </TechCard>
+      <TechCard title="Back End">
+        <IconWithTooltip iconName="logos:fastapi-icon" tooltipText="FastAPI"/>
+        <UTooltip text="TigerGraph">
+          <NuxtImg src="/TigerGraph-logo.png" width="48px" height="48px"/>
+        </UTooltip>
+        <IconWithTooltip iconName="vscode-icons:file-type-mongo" tooltipText="MongoDB"/>
+        <IconWithTooltip iconName="vscode-icons:file-type-mysql" tooltipText="MySQL"/>
+        <IconWithTooltip iconName="vscode-icons:file-type-pgsql" tooltipText="PostgreSQL"/>
+        <IconWithTooltip iconName="logos:aws" tooltipText="AWS"/>
+        <IconWithTooltip iconName="logos:nodejs-icon" tooltipText="Node"/>
+        <IconWithTooltip iconName="vscode-icons:file-type-serverless" tooltipText="Serverless"/>
+      </TechCard>
+      <TechCard title="Other Skills">
+        <IconWithTooltip iconName="mdi:unity" tooltipText="Unity"/>
+        <IconWithTooltip iconName="logos:godot-icon" tooltipText="Godot"/>
+      </TechCard>
+      <TechCard title="Companies Worked At">
+        <UTooltip text="TigerGraph">
+          <NuxtImg src="/TigerGraph-logo.png" width="48px" height="48px"/>
+        </UTooltip>
+        <UTooltip text="Optum">
+          <NuxtImg src="/Optum_logo_2021.svg.png" sizes="150px"/>
+        </UTooltip>
+      </TechCard>
+      <TechCard title="Education">
+        <UTooltip text="Penn State">
+          <NuxtImg src="/Penn-State-Logo.png" sizes="150px"/>
+        </UTooltip>
+      </TechCard>
     </div>
   </template>
   
