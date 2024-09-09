@@ -1,10 +1,9 @@
 <template>
-    <div class="h-full">
-      <h1>Index page</h1>
+    <div class="h-full py-6">
       <div>Profile picture</div>
-      <div>Senior Software Engineer and UI/UX Designer</div>
-      <div>Building simple to use interfaces for complex and efficient solutions</div>
-      <div>I've been a softwre engineer for nearly a decade with experience as a front end web dev, back end engineer, and AR/VR Designer.
+      <div class="p-8 border-2 border-solid border-red-600">Senior Software Engineer and UI/UX Designer</div>
+      <div class="p-8 border-2 border-solid border-red-600">Building simple to use interfaces for complex and efficient solutions</div>
+      <div class="p-8 border-2 border-solid border-red-600">I've been a softwre engineer for nearly a decade with experience as a front end web dev, back end engineer, and AR/VR Designer.
         I've worked in the health tech space, behavioral health space, and in graph databases. I love learning about a tech process inside 
         and out to help me design the simplest user interfaces so clients can get the most out of a product.
       </div>
@@ -16,7 +15,8 @@
         <IconWithTooltip iconName="vscode-icons:file-type-python" tooltipText="Python"/>
         <IconWithTooltip iconName="vscode-icons:file-type-csharp" tooltipText="C Sharp"/>
       </TechCard>
-      <TechCard title="Front End">
+      <div class="flex flex-row gap-x-8">
+      <TechCard title="Front End" class="basis-1/2">
         <IconWithTooltip iconName="vscode-icons:file-type-vue" tooltipText="Vue"/>
         <IconWithTooltip iconName="vscode-icons:file-type-reactjs" tooltipText="React"/>
         <IconWithTooltip iconName="vscode-icons:file-type-nuxt" tooltipText="Nuxt"/>
@@ -25,7 +25,7 @@
         <IconWithTooltip iconName="vscode-icons:file-type-graphql" tooltipText="GraphQL"/>
         <IconWithTooltip iconName="vscode-icons:file-type-angular" tooltipText="Angular"/>
       </TechCard>
-      <TechCard title="Back End">
+      <TechCard title="Back End" class="basis-1/2">
         <IconWithTooltip iconName="logos:fastapi-icon" tooltipText="FastAPI"/>
         <UTooltip text="TigerGraph">
           <NuxtImg src="/TigerGraph-logo.png" width="48px" height="48px"/>
@@ -37,6 +37,7 @@
         <IconWithTooltip iconName="logos:nodejs-icon" tooltipText="Node"/>
         <IconWithTooltip iconName="vscode-icons:file-type-serverless" tooltipText="Serverless"/>
       </TechCard>
+    </div>
       <TechCard title="Other Skills">
         <IconWithTooltip iconName="mdi:unity" tooltipText="Unity"/>
         <IconWithTooltip iconName="logos:godot-icon" tooltipText="Godot"/>
